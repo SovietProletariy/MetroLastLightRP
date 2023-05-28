@@ -1,0 +1,49 @@
+%menu-text{
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100px;
+    display: absolute;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #FFFFFF; 
+}
+%menu-button{
+    background: #0356d4;
+    border-radius: 10px;
+}
+%section-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    display: absolute;
+    align-items: center;
+    text-align: center;;
+
+    color: #FFFFFF; 
+}
+
+%second-menu-button{
+    width: 26%;
+    height: 131px;   
+
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+%first-animation{
+    transition: all 0.7s ease;
+}

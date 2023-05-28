@@ -1,0 +1,108 @@
+@import "./variables";
+@import "./mixins";
+@import "./extends";
+
+*{
+    background: $first-color
+}
+
+nav{
+    position: absolute;
+    top: 170%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    //background-color: $second-color;
+    button{
+        @extend %menu-text, %menu-button;
+    }
+    #main{
+        @include position($menu-button-width,$menu-button-height,5%,$menu-button-top)
+    }
+    #daybook{
+        @include position($menu-button-width,$menu-button-height,40%,$menu-button-top)
+    }
+    #players{
+        @include position($menu-button-width,$menu-button-height,75%,$menu-button-top)
+
+    }
+}
+
+section{
+    color: #ffff;
+}
+
+#mheader{
+    background-color: $third-color;
+    @include position(100%,15%,0%,0%);
+    h1{
+        background-color: $third-color;
+        position: absolute;
+        left: 25%;
+        top: 0%;
+        width: 50%;
+        font-size: xxx-large;
+        text-align: center;
+        
+    }
+}
+h2{
+    position: absolute;
+    left: 25%;
+    top: 90%;
+    width: 50%;
+    font-size: xxx-large;
+    text-align: center;
+}
+h3{
+    position: absolute;
+    left: 25%;
+    top: 105%;
+    width: 50%;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#trailer{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+#loading{
+    position: absolute;
+    left: 0%;
+    top: 130%;
+    width: 100%;
+    height: 30%;
+    background-color: $third-color;
+    #loadingbar{
+        background-color: gray;
+        color: #ffff;
+        position: absolute;
+        width: 70%;
+        left: 15%;
+        top: 5%;
+        height: 30%;
+    }
+    #loadingtext{
+        background-color: #001b75;
+        text-align: center;
+        font-size: x-large;
+        position: absolute;
+        width: 70%;
+        left: 15%;
+        top: 30%;
+        height: 40%;
+    }
+}
+
+footer{
+    color: #ffff;
+    background-color: rgb(90, 90, 90);
+    @include position(100%,10%,0%,210%);
+    h3{
+        @include position(50%,10%,25%,0%);
+        background-color: rgb(90, 90, 90);
+    }
+}
