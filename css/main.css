@@ -24,7 +24,7 @@ section {
   text-align: center;
 }
 
-#trailersection #trailer {
+#trailer {
   position: absolute;
   width: 100%;
   left: 0%;
@@ -133,4 +133,52 @@ h2 {
   color: white;
   font-size: xx-large;
   text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+  #mheader h1 {
+    left: 0%;
+    width: 100%;
+    font-size: large;
+  }
+  #trailer {
+    top: 35px;
+  }
+  #loading {
+    top: 150%;
+  }
+  #loading #loadingtext {
+    font-size: small;
+  }
+  #news {
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+  }
+  #news h3 {
+    font-size: small;
+  }
+  #news i {
+    font-size: smaller;
+  }
+  h2 {
+    font-size: small;
+    top: 335%;
+  }
+  #daybook {
+    top: 355%;
+  }
+  #daybook h3 {
+    font-size: smaller;
+  }
+  #daybook li {
+    font-size: x-small;
+  }
+  footer {
+    top: 550%;
+    height: 30%;
+  }
+  footer h3 {
+    font-size: small;
+  }
 }/*# sourceMappingURL=main.css.map */
