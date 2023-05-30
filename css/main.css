@@ -145,15 +145,16 @@ h2 {
     top: 35px;
   }
   #loading {
-    top: 150%;
+    top: 390px;
   }
   #loading #loadingtext {
     font-size: small;
   }
   #news {
+    top: 520px;
     background-color: white;
     border-radius: 10px;
-    height: 100%;
+    height: 200px;
   }
   #news h3 {
     font-size: small;
@@ -163,10 +164,10 @@ h2 {
   }
   h2 {
     font-size: small;
-    top: 335%;
+    top: 720px;
   }
   #daybook {
-    top: 355%;
+    top: 750px;
   }
   #daybook h3 {
     font-size: smaller;
@@ -175,8 +176,8 @@ h2 {
     font-size: x-small;
   }
   footer {
-    top: 550%;
-    height: 30%;
+    top: 1100px;
+    height: 20%;
   }
   footer h3 {
     font-size: small;
